@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="위드마크"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:background="#e52525"
+
+
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+
+
+
+
+
+        />
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="균형감각"
+        android:textSize="20dp"
+
+        android:background="#545bcb"
+
+        android:textColor="#ffffff"
+
+
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="전화방지"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:background="#e52525"
+
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="알콜측정"
+        android:textSize="20dp"
+        android:background="#545bcb"
+
+        android:textColor="#ffffff"
+
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+</LinearLayout>

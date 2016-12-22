@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/newNumberText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="새로운 번호를 입력해주세요" />
+
+    <EditText
+        android:id="@+id/newNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/newNumberText"
+        android:ems="10"
+        android:hint="여기에 번호를 입력하세요"
+        android:inputType="number">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/newNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/newNumberEditText"
+        android:text="저장" />
+
+</RelativeLayout>
